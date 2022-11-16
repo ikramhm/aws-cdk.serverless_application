@@ -1,4 +1,39 @@
 
+Challenging! My Story from Beginner Python-er to Intermediate
+
+This application is the amalgamation of an outdatted Udemy course and lots of research. Whiel I will not name the course or it's instructor, unfortunately, much of the code presented in the videos did not work: AWS had introduced new variablenames or an entire new version of the Python CDK, and so, each individual unit involved much research through github!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Welcome to your CDK Python project!
 
 You should explore the contents of this project. It demonstrates a CDK app with an instance of a stack (`cdk_learning_2_stack`)

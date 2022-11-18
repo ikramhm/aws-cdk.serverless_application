@@ -3,9 +3,7 @@
 
 This application is the amalgamation of an outdatted Udemy course and lots of research. Whiel I will not name the course or it's instructor, unfortunately, much of the code presented in the videos did not work. AWS had introduced new variablenames or an entire new version of the Python CDK, and so, each individual unit involved much research through github! The course taught some of the fundamentals; in places where the video instruction did not work, I referred to either the official AWS documenation (https://docs.aws.amazon.com/cdk/api/v1/python/index.html) or the following github repo (https://github.com/aws-samples/aws-cdk-examples/tree/master/python). Thankfully, the documentation was easy to follow! The course was 7 hours long - It took me 2 months to complete this course! Its lucky that RESEARCH is my day-job!
 
-![image](https://user-images.githubusercontent.com/98710900/202811333-275be33a-f183-469d-a86c-df0e561e2a5f.png)
 
-try
 <p align="center">
   <img width="650" height="425" src="https://user-images.githubusercontent.com/98710900/202811333-275be33a-f183-469d-a86c-df0e561e2a5f.png">
 </p>

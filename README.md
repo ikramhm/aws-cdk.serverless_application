@@ -1,8 +1,15 @@
 
 # Challenging! My Story from Beginner Python-er to Intermediate
 
-This application is the amalgamation of an outdatted Udemy course and lots of research. Whiel I will not name the course or it's instructor, unfortunately, much of the code presented in the videos did not work: AWS had introduced new variablenames or an entire new version of the Python CDK, and so, each individual unit involved much research through github!
+This application is the amalgamation of an outdatted Udemy course and lots of research. Whiel I will not name the course or it's instructor, unfortunately, much of the code presented in the videos did not work. AWS had introduced new variablenames or an entire new version of the Python CDK, and so, each individual unit involved much research through github! The course taught some of the fundamentals; in places where the video instruction did not work, I referred to either the official AWS documenation (https://docs.aws.amazon.com/cdk/api/v1/python/index.html) or the following github repo (https://github.com/aws-samples/aws-cdk-examples/tree/master/python). Thankfully, the documentation was easy to follow! The course was 7 hours long - It took me 2 months to complete this course! Its lucky that RESEARCH is my day-job!
 
+![image](https://user-images.githubusercontent.com/98710900/202811333-275be33a-f183-469d-a86c-df0e561e2a5f.png)
+
+The architecture of the project is as follows. The entire architecture is built together through individiual configuration stacks per service. All the stacks are fully functioning, with the exception of (codepipeline_backened, codepipeline_frontend).
+
+Why did I start this? I had just passed the AWS Developer Associate exam and was focussing on learning Python. I had gained some begginner Python proficiencies, creating a few "powerful" python scripts. I had no real developping experience though! My mentor thought that learning the CDK for Python might help allign my learning! This experience with OOP and Constucts has elevated my Python knowledge. By no means am I a comfortable python programmer, but this experience with python data and syntax fundamentals + AWS documentation + github + google search, has equalled immense depth in knowledge.
+
+Since this project, I have since moved on to learning Terraform which has been a revelation! More on that later!
 
 
 

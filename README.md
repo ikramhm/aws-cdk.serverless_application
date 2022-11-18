@@ -7,7 +7,7 @@ This application is the amalgamation of an outdatted Udemy course and lots of re
 
 try
 <p align="center">
-  <img width="650" height="650" src="https://user-images.githubusercontent.com/98710900/202811333-275be33a-f183-469d-a86c-df0e561e2a5f.png">
+  <img width="700" height="450" src="https://user-images.githubusercontent.com/98710900/202811333-275be33a-f183-469d-a86c-df0e561e2a5f.png">
 </p>
 
 The architecture of the project is as follows. The entire architecture is built together through individiual configuration stacks per service. All the stacks are fully functioning, with the exception of (codepipeline_backened, codepipeline_frontend).

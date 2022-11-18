@@ -8,16 +8,33 @@ This application is the amalgamation of an outdatted Udemy course and lots of re
   <img width="700" height="475" src="https://user-images.githubusercontent.com/98710900/202811333-275be33a-f183-469d-a86c-df0e561e2a5f.png">
 </p>
 
-The architecture of the project is as follows. The entire architecture is built together through individiual configuration stacks per service. All the stacks are fully functioning, with the exception of (codepipeline_backened, codepipeline_frontend).
+The architecture of the project is as follows. The entire architecture is built together through individiual configuration stacks per service. All the stacks are fully functioning, with the exception of (codepipeline_backened, codepipeline_frontend). The client will access the app through Route53, which will route them to a CloudFront distribution. Static content will be served through an S3, while dynamic content (API work) will be staged through an API Gateway-Lambda-RDSAurora intregration. There are various other features: VPCs, WAF & Shield intergration, alongside monitoring through CloudWatch, CloudTrail and ElasticSearch (kibana can be installed therein).
+
 
 Why did I start this? I had just passed the AWS Developer Associate exam and was focussing on learning Python. I had gained some begginner Python proficiencies, creating a few "powerful" python scripts. I had no real developping experience though! My mentor thought that learning the CDK for Python might help allign my learning! This experience with OOP and Constucts has elevated my Python knowledge. By no means am I a comfortable python programmer, but this experience with python data and syntax fundamentals + AWS documentation + github + google search, has equalled immense depth in knowledge.
 
 Since this project, I have since moved on to learning Terraform which has been a revelation! More on that later!
 
 
-
-
-
+<h><h/>
+<h><h/>
+<h><h/>
+<h><h/>
+<h><h/>
+<h><h/>
+<h><h/>
+<h><h/>
+<h><h/>
+<h><h/>
+<h><h/>
+<h><h/>
+<h><h/>
+<h><h/>
+<h><h/>
+<h><h/>
+<h><h/>
+<h><h/>
+   
 
 
 

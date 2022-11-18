@@ -5,7 +5,7 @@ This application is the amalgamation of an outdatted Udemy course and lots of re
 
 
 <p align="center">
-  <img width="700" height="400" src="https://user-images.githubusercontent.com/98710900/202811333-275be33a-f183-469d-a86c-df0e561e2a5f.png">
+  <img width="700" height="375" src="https://user-images.githubusercontent.com/98710900/202811333-275be33a-f183-469d-a86c-df0e561e2a5f.png">
 </p>
 
 The architecture of the project is as follows. The entire architecture is built together through individiual configuration stacks per service. All the stacks are fully functioning, with the exception of (codepipeline_backened, codepipeline_frontend). The client will access the app through Route53, which will route them to a CloudFront distribution. Static content will be served through an S3, while dynamic content (API work) will be staged through an API Gateway-Lambda-RDSAurora intregration. There are various other features: VPCs, WAF & Shield intergration, alongside monitoring through CloudWatch, CloudTrail and ElasticSearch (kibana can be installed therein).
